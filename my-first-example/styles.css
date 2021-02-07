@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: whitesmoke;
+}
+
+/* width */
+.panel-with-bar::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.panel-with-bar::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+  display: none;
+}
+
+/* Handle */
+.panel-with-bar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.panel-with-bar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.panel-with-bar {
+  border: 1px solid;
+  width: 400px;
+  height: calc(100vh - 50px);
+  overflow-y: hidden;
+}
+
+.panel-with-bar:hover {
+  overflow-y: auto;
+}
+
+body {
+  /* overflow-y: scroll; */
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
